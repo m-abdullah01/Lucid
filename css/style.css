@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../images/background-.png);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    padding: 0;
+
+}
+.navbar-light .navbar-nav .nav-item{
+    padding: 0px 15px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: blue;
+    transition: .5s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link::after{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    height: 2px;
+    width: 0%;
+    background-color: blue;
+    transition: .5s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 45%;
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+    width: 45%;
+}
+.banner-content{
+    min-height: 90vh;
+    align-items: center;
+}
+.banner-content h5{
+    color: #008ed6;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-bottom: 14px;
+}
+.banner-content h1{
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 15;
+}
+.banner-content p{
+    color: #fff;
+    margin-bottom: 20px;
+    position: relative;
+}
+.btn-downlod{
+    color: #fff;
+    background-color: #008ed6;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 0;
+    padding: 12px 25px;
+    font-weight: 600;
+    letter-spacing: 1.05px;
+    transition: .5s all ease-in-out;
+}
+.btn-features{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 0;
+    padding: 12px 25px;
+    font-weight: 600;
+    letter-spacing: 1.05px;
+    border: 1px solid #fff;
+    margin-left: 30px;
+    transition: .5s all ease-in-out;
+}
+.btn-downlod:hover{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.btn-features:hover{
+    color: #fff;
+    background-color: #008ed6;
+    border-color: transparent;
+}
+.phone{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    width: 50%;
+}
+.phone img{
+
+}
+.heading{
+
+}
+.heading h5{
+    color: #008ed6;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.heading h1{
+    color: black;
+    font-size: 38px;
+}
+.heading span{
+  display: inline-block;
+  height: 2px;
+  width: 70px;
+  background-color:#008ed6 ;
+    position: relative;
+}
+.heading span::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 0;
+    top: 0;
+}
+.heading span::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    right: 0;
+    top: 0;
+}
